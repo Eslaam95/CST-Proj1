@@ -1,3 +1,4 @@
+/*General*/
 *{
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
@@ -16,10 +17,50 @@
     clear: both;
     overflow: hidden;
 }
+h1{
+    font-size:55px;
+    font-weight: 900;
+    color: #111;
+    line-height: 1.35;
+    margin-bottom: 20px;
+}
+h2{
+    font-size:38px;
+    font-weight: 900;
+    color: #111;
+    line-height: 1.35;
+    margin-bottom: 15px;
+}
+p{
+    font-size: 16px;
+    color: #444;
+    line-height: 1.5;
+    margin-top: 0;
+}
+
+.btn{
+    display:inline-block;
+    padding: 15px 20px;
+    margin: 15px 5px;
+    border: none;
+    background: #111;
+    color: #fff;
+    min-width: 120px;
+    border: 2px solid #111;
+}
+ .btn.orange{
+    background-color: #FC5D35;
+    border: 2px solid #FC5D35;
+}
+ .btn:hover{
+    background: #fff;
+    color: #111;
+}
  .navbar .logo{
     width:30%;
     float: left;
 }
+/*navbar*/
  .navbar .logo img{
     position: relative;
     top: 20px;
@@ -51,7 +92,7 @@
 }
  .navbar .nav-menu ul li a{
     color: #444;
-    ;
+   
 }
  .navbar .nav-menu .search{
     margin-top: 30px;
@@ -59,7 +100,7 @@
  .navbar .nav-menu .search img{
     width: 30px;
 }
-/*hero ection*/
+/*hero section*/
  .hero-section{
     padding-top: 50px;
 }
@@ -67,19 +108,7 @@
     width:40%;
     float: left;
 }
- h1{
-    font-size:55px;
-    font-weight: 900;
-    color: #111;
-    line-height: 1.35;
-    margin-bottom: 20px;
-}
- p{
-    font-size: 16px;
-    color: #444;
-    line-height: 1.5;
-    margin-top: 0;
-}
+
  .hero-section .image{
     width: 60%;
     float: left;
@@ -88,36 +117,13 @@
     width: 80%;
     float: right;
 }
- .btn{
-    display:inline-block;
-    padding: 15px 20px;
-    margin: 15px 5px;
-    border: none;
-    background: #111;
-    color: #fff;
-    min-width: 120px;
-    border: 2px solid #111;
-}
- .btn.orange{
-    background-color: #FC5D35;
-    border: 2px solid #FC5D35;
-}
- .btn:hover{
-    background: #fff;
-    color: #111;
-}
+
 /*services section*/
  .services-section{
     padding-top: 50px;
     text-align: center;
 }
- h2{
-    font-size:38px;
-    font-weight: 900;
-    color: #111;
-    line-height: 1.35;
-    margin-bottom: 15px;
-}
+
  .services-section p{
     text-align: center;
 }
@@ -225,7 +231,7 @@
     top: 0;
     right: 0;
 }
-/*foter*/
+/*footer*/
  .footer{
     padding-top: 130px;
     padding-bottom: 60px;
