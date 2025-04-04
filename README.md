@@ -1,1 +1,2 @@
-WEbpage HTML Demo for ITI
+Webpage HTML Demo for ITI
+1st project using HTML&CSS
